@@ -195,3 +195,16 @@ p {
     border: #e5e7eb solid 1px;
     width: 150px;
 }
+
+.copyright-box {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #e5e7eb;
+    font-size: 18px;
+}
