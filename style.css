@@ -90,7 +90,8 @@ button {
 
 .about-heroes-wrapper {
     background-color: #fff;
-    padding: 40px 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .about-heroes-title {
@@ -98,6 +99,7 @@ button {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin-bottom: 40px;
 }
 
 .heroes-info {
