@@ -15,6 +15,10 @@ h1 {
     font-weight: 900;
 }
 
+h3 {
+    margin: 0;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -33,6 +37,10 @@ button {
     border: none;
     padding: 10px;
     width: 100px;
+}
+
+p {
+    margin: 0;
 }
 
 .container {
@@ -117,4 +125,73 @@ button {
     border-radius: 8px;
     padding: 5px;
     background: linear-gradient(45deg, #0575E6, #021B79);
+}
+
+.quote-wrapper {
+    background-color: #e5e7eb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.quote-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 900px;
+    margin: auto;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    margin-left: auto;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.about-heroes-wrapper {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.action-wrapper {
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.action-box {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 40px 140px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.action-title {
+    color: #e5e7eb;
+    font-size: 24px;
+}
+
+.action-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.action-right {
+    margin-left: auto;
+}
+
+.action-button {
+    border: #e5e7eb solid 1px;
+    width: 150px;
 }
