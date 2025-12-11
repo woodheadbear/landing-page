@@ -87,3 +87,32 @@ button {
 .hero-right {
     margin-left: auto;
 }
+
+.about-heroes-wrapper {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.about-heroes-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.heroes-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;    
+}
+
+.hero-info {
+    text-align: center;
+}
+
+.hero-info > img {
+    width: 200px;
+    border-radius: 8px;
+    padding: 5px;
+    background: linear-gradient(45deg, #0575E6, #021B79);
+}
